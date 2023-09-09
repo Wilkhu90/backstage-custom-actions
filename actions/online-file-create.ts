@@ -1,7 +1,7 @@
 import { createTemplateAction } from '@backstage/plugin-scaffolder-node';
 import { writeFile } from 'fs';
 
-export const createNewFileAction = () => {
+export const createNewFileAction1 = () => {
   return createTemplateAction<{ contents: string; filename: string }>({
     id: 'online.file.create',
     schema: {

@@ -1,0 +1,1 @@
+export actionList = [createNewFileAction1()];
